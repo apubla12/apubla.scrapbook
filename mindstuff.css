@@ -1,0 +1,42 @@
+/* Define the MuseoModerno font family */
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url('path-to-your-font/MuseoModerno-Regular.ttf') format('truetype');
+  }
+  .custom-font {
+    font-family: 'MuseoModerno', sans-serif;
+    font-size: 25px;
+    color: #333;
+    align-items: center;
+    align-content: ;
+  }
+
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: radial-gradient(to bottom, #ff8732, #ffdd77); /* Gradient background */
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        gap: 20px; /* Adjust the gap between grid items */
+        max-width: 1000px;
+        max-height: 1000px;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .grid-item {
+        border: 1px solid #ffffff; /* Add a border to visualize individual grid items */
+        padding: 20px;
+        width: 100%; /* Occupy the full width of the column */
+        height: 100%; /* Occupy the full height of the row */
+        display: absolute;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+      
+      

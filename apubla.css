@@ -1,0 +1,81 @@
+.grid-container1{
+  display: grid;
+  grid-template-rows: 1fr; /* 5 equal fractions within each column */
+  grid-gap: 10px; /* Adjust the gap between grid items */
+  border: 1px solid #000; /* Add a border to visualize the grid container */
+  /* padding: 10px; */
+  height: 120px;
+  width: 1707px;
+}
+
+.grid-item1 {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  border: 1px solid #000;
+  height: 200px;
+  width: 400px;
+}
+
+.grid-item2 {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Align content to the left horizontally */
+  align-items: center; /* Align content to the top vertically */
+}
+
+
+.grid-container3 {
+  display: grid;
+  grid-template-rows: 1fr;
+  border: 1px solid #000;
+  height: 200px;
+  width: 400px;
+}
+.grid-item3 {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Align content to the left horizontally */
+  align-items: center; /* Align content to the top vertically */
+}
+/* Define the MuseoModerno font family */
+@font-face {
+  font-family: 'MuseoModerno';
+  src: url('path-to-your-font/MuseoModerno-Regular.ttf') format('truetype');
+}
+.custom-font {
+  font-family: 'MuseoModerno', sans-serif;
+  font-size: 30px;
+  color: #333;
+  align-items: center;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-rows: 1fr;
+  border: 1px solid #000;
+  height: 200px;
+  width: 400px;
+}
+
+.grid-item4 {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Align content to the left horizontally */
+  align-items: center; /* Align content to the top vertically */
+}
+
